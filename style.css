@@ -1,0 +1,40 @@
+/* Utilities */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+}
+
+/* Navbar start */
+/* Navbar end */
+
+/* Home start */
+/* Home end */
+
+/* Project start */
+/* Project end */
+
+/* About start */
+/* About end */
+
+/* Contact start */
+/* Contact end */
+
+/* Design start */
+/* Design end */
+
+/* Footer start */
+/* Footer end */
