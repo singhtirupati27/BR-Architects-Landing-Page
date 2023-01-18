@@ -36,9 +36,8 @@ a:hover {
 }
 
 .page-wrapper {
-    width: 1200px;
+    width: 1180px;
     margin: 0 auto;
-    /* border: 1px solid green; */
 }
 
 hr {
@@ -49,6 +48,12 @@ hr {
 /* Navbar start */
 .nav-bar {
     padding: 7px 0;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
 }
 
 .logo-text {
@@ -75,8 +80,8 @@ hr {
 /* Navbar end */
 
 /* Home start */
-.home-page {
-    height: 100vh;
+/* .home-page {
+    height: 80vh;
     background: url("./img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,6 +97,28 @@ hr {
     justify-content: center;
     align-items: center;
     height: 100%;
+} */
+
+.home-page {
+    margin-top: 62px;
+}
+
+.home-banner img {
+    height: 100%;
+    width: 100%;
+}
+
+.hm-pg {
+    position: relative;
+}
+
+.home-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    letter-spacing: 6px;
 }
 
 /* Home end */
